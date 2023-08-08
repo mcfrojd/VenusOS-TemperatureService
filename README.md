@@ -15,13 +15,12 @@ unzip main.zip "VenusOS-TemperatureService-main/*" -d /data
 mv /data/VenusOS-TemperatureService-main /data/VenusOS-TemperatureService
 chmod a+x /data/VenusOS-TemperatureService/setup
 /data/VenusOS-TemperatureService/setup
+```
+Choose "i" to install and activate.  
+Choose "y" to reboot
+```
 rm main.zip
 ```
-
-No Settings needed for 1 Wire (e.g. DS18B20) all you need is to install SetupHelper and configure a custom Package.
-  - Package name: VenusOS-TemperatureService
-  - GitHub user: mcfrojd
-  - GitHub Tag: latest
 
       ### Screenshots
       <details><summary>Add Custom Package</summary>
