@@ -11,7 +11,7 @@ Added Support to install this with Kevin Windrem's Venus OS Setup Helper (https:
 The following script should do everything for you:
 ```
 wget https://github.com/mcfrojd/venusos-temperatureservice/archive/refs/heads/main.zip
-unzip main.zip "dbus-shelly-em-smartmeter-main/*" -d /data
+unzip main.zip "venusos-temperatureservice-main/*" -d /data
 mv /data/venusos-temperatureservice-main /data/venusos-temperatureservice
 chmod a+x /data/venusos-temperatureservice/setup
 /data/venusos-temperatureservice/setup
