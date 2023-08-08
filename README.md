@@ -9,7 +9,7 @@ Added Support to install this with Kevin Windrem's Venus OS Setup Helper (https:
 ## INSTALL INSTRUCTIONS
 No Settings needed for 1 Wire (e.g. DS18B20) all you need is to install SetupHelper and configure a custom Package.
   - Package name: VenusOS-TemperatureService
-  - GitHub user: Rikkert-RS
+  - GitHub user: mcfrojd
   - GitHub Tag: latest
 
       ### Screenshots

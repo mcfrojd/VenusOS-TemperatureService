@@ -1,7 +1,4 @@
-v0.5:
-	Fixed issue #4 Temperatures freezing when inactive
-	Fixed issue #3 Phantom of the temperature probe
-	Settings ID is now set to 1-Wire device ID so it is no longer related to VRM instance ID
-	Default gpio pin changed from 4 to 26 due to CAN Hat collision
-v0.4:
-	Fork from LHardwick-git/Victron-Service, with support to Kevin Windrem's Setuphelper
+v0.2:
+	Minor changes to mcfrojdify the repo
+v0.1:
+	Fork from Rikkert-RS/VenusOS-TemperatureService, Changed gpio pin to 4
