@@ -14,7 +14,7 @@ wget https://github.com/mcfrojd/venusos-temperatureservice/archive/refs/heads/ma
 unzip main.zip "VenusOS-TemperatureService-main/*" -d /data
 mv /data/VenusOS-TemperatureService-main /data/VenusOS-TemperatureService
 chmod a+x /data/VenusOS-TemperatureService/setup
-/data/VenusOS-TemperatureService/setup
+/data/VenusOS-TemperatureService/setup install
 ```
 Choose "i" to install and activate.  
 Choose "y" to reboot
