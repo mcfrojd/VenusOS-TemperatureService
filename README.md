@@ -12,15 +12,15 @@ The following script should do everything for you:
 ```
 wget https://github.com/mcfrojd/venusos-temperatureservice/archive/refs/heads/main.zip
 unzip main.zip "VenusOS-TemperatureService-main/*" -d /data
-mv /data/VenusOS-TemperatureService-main /data/VenusOS-TemperatureService
+rm -r main.zip
+mv VenusOS-TemperatureService-main /data/VenusOS-TemperatureService
 chmod a+x /data/VenusOS-TemperatureService/setup
 /data/VenusOS-TemperatureService/setup install
 ```
-Choose "i" to install and activate.  
-Choose "y" to reboot
-```
-rm main.zip
-```
+
+`./setup install` Installs package
+`./setup uninstall` Uninstalls package
+`./setup reinstall` Reinstalls package
 
       ### Screenshots
       <details><summary>Add Custom Package</summary>
